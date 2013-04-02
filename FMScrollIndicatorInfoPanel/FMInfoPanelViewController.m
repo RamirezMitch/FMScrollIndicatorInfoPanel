@@ -20,10 +20,10 @@
 	scrollView = [[UIScrollView alloc] initWithFrame:viewFrame];
 	[scrollView setDelegate:self];
 	[scrollView setContentSize:CGSizeMake(viewFrame.size.width, viewFrame.size.height * 4)];
-    [scrollView setBackgroundColor:[UIColor yellowColor]];
+    [scrollView setBackgroundColor:[UIColor grayColor]];
 	[[self view] addSubview:scrollView];
 	
-	UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"check_box_unchecked.png"]];
+	UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"infoPanel.png"]];
 	initialSizeOfInfoPanel = [backgroundImage frame].size;
 	
 	infoPanel = [[UIView alloc] initWithFrame:CGRectMake(initialSizeOfInfoPanel.width * (-1), 0, initialSizeOfInfoPanel.width, initialSizeOfInfoPanel.height)];
