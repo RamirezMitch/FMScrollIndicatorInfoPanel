@@ -22,7 +22,7 @@
 	[scrollView setContentSize:CGSizeMake(viewFrame.size.width, viewFrame.size.height * 4)];
 	[[self view] addSubview:scrollView];
 	
-	UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"infoPanel.png"]];
+	UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"check_box_unchecked.png"]];
 	initialSizeOfInfoPanel = [backgroundImage frame].size;
 	
 	infoPanel = [[UIView alloc] initWithFrame:CGRectMake(initialSizeOfInfoPanel.width * (-1), 0, initialSizeOfInfoPanel.width, initialSizeOfInfoPanel.height)];

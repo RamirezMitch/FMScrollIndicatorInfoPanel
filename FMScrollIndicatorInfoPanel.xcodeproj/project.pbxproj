@@ -17,6 +17,7 @@
 		17E4C86C148DFE6E00ED155B /* FMInfoPanelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C86A148DFE6E00ED155B /* FMInfoPanelView.xib */; };
 		17E4C874148DFEF400ED155B /* infoPanel.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C872148DFEF400ED155B /* infoPanel.png */; };
 		17E4C875148DFEF400ED155B /* infoPanel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E4C873148DFEF400ED155B /* infoPanel@2x.png */; };
+		48957833170AD0070040EA03 /* check_box_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 48957832170AD0070040EA03 /* check_box_unchecked.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		17E4C86B148DFE6E00ED155B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FMInfoPanelView.xib; sourceTree = "<group>"; };
 		17E4C872148DFEF400ED155B /* infoPanel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoPanel.png; sourceTree = "<group>"; };
 		17E4C873148DFEF400ED155B /* infoPanel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoPanel@2x.png"; sourceTree = "<group>"; };
+		48957832170AD0070040EA03 /* check_box_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_box_unchecked.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		17E4C85C148DFE6E00ED155B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48957832170AD0070040EA03 /* check_box_unchecked.png */,
 				17E4C872148DFEF400ED155B /* infoPanel.png */,
 				17E4C873148DFEF400ED155B /* infoPanel@2x.png */,
 				17E4C85D148DFE6E00ED155B /* FMScrollIndicatorInfoPanel-Info.plist */,
@@ -158,6 +161,7 @@
 				17E4C86C148DFE6E00ED155B /* FMInfoPanelView.xib in Resources */,
 				17E4C874148DFEF400ED155B /* infoPanel.png in Resources */,
 				17E4C875148DFEF400ED155B /* infoPanel@2x.png in Resources */,
+				48957833170AD0070040EA03 /* check_box_unchecked.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +284,7 @@
 				17E4C871148DFE6E00ED155B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
