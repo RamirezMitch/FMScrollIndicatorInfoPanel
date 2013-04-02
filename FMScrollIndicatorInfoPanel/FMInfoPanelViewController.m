@@ -20,6 +20,7 @@
 	scrollView = [[UIScrollView alloc] initWithFrame:viewFrame];
 	[scrollView setDelegate:self];
 	[scrollView setContentSize:CGSizeMake(viewFrame.size.width, viewFrame.size.height * 4)];
+    [scrollView setBackgroundColor:[UIColor yellowColor]];
 	[[self view] addSubview:scrollView];
 	
 	UIImageView *backgroundImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"check_box_unchecked.png"]];
